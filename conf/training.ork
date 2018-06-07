@@ -4,6 +4,8 @@ pipeline1:
   parameters:
     # The list of object_ids to analyze
     object_ids: 'all'
+    renderer_focal_length_x: 464
+    renderer_focal_length_y: 464
     db:
       type: 'CouchDB'
       root: 'http://localhost:5984'

@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 2.8)
 project(object_recognition_linemod)
 
-option(LINEMOD_VIZ_IMG "visualize images with detected objects features" OFF)
+option(LINEMOD_VIZ_IMG "visualize images with detected objects features" ON)
 option(LINEMOD_VIZ_PCD "visualize point clouds from the reference image and its match from DB" OFF)
 
 find_package(catkin REQUIRED object_recognition_core object_recognition_renderer opencv_candidate)
