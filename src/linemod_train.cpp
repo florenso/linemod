@@ -82,8 +82,8 @@ namespace ecto_linemod
       params.declare(&Trainer::param_height_, "renderer_height", "Renderer parameter: the image height.", 480);
       params.declare(&Trainer::param_focal_length_x_, "renderer_focal_length_x", "Renderer parameter: the focal length x.", 525.0);
       params.declare(&Trainer::param_focal_length_y_, "renderer_focal_length_y", "Renderer parameter: the focal length y.", 525.0);
-      params.declare(&Trainer::param_near_, "renderer_near", "Renderer parameter: near distance.", 0.1);
-      params.declare(&Trainer::param_far_, "renderer_far", "Renderer parameter: far distance.", 1000.0);
+      params.declare(&Trainer::param_near_, "renderer_near", "Renderer parameter: near distance.", 5000.0);
+      params.declare(&Trainer::param_far_, "renderer_far", "Renderer parameter: far distance.", 10000.0);
     }
 
     static void
