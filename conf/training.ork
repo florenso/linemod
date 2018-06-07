@@ -7,7 +7,7 @@ pipeline1:
     renderer_focal_length_x: 464
     renderer_focal_length_y: 464
     renderer_radius_min: 5
-    renderer_radius_max_10
+    renderer_radius_max: 10
     db:
       type: 'CouchDB'
       root: 'http://localhost:5984'
