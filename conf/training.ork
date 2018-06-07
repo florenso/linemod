@@ -6,6 +6,8 @@ pipeline1:
     object_ids: 'all'
     renderer_focal_length_x: 464
     renderer_focal_length_y: 464
+    renderer_radius_min: 5
+    renderer_radius_max_10
     db:
       type: 'CouchDB'
       root: 'http://localhost:5984'
